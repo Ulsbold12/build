@@ -1,7 +1,7 @@
 export const Hurlee = () => {
   return (
     <div className="flex justify-center mt-10">
-      <div className="grid grid-cols-1 sm:grid-cols-3 w-[1064px] h-[152px] border">
+      <div className="grid grid-cols-1 sm:grid-cols-3 w-[1064px] h-[152px] ">
         {Bold.map((h) => (
           <div
             key={h.id}

@@ -1,7 +1,6 @@
 export const LandingSection = () => {
   return (
     <div className="w-screen h-[590px] flex flex-col items-center  bg-white gap-20">
-      {/* Дээд хэсэг — текст */}
       <div className="w-[1280px] h-[112px] flex flex-col items-center justify-center gap-2 pt-10">
         <h1 className="text-black text-2xl font-inter">Smart Tools</h1>
         <h2 className="text-black text-2xl font-inter">
@@ -12,7 +11,6 @@ export const LandingSection = () => {
         </p>
       </div>
 
-      {/* Доод хэсэг — зураг */}
       <div className="mt-10 flex gap-20">
         <div className="w-[310px] h-[234px] flex flex-col items-center gap-10">
           <img alt="logo" src="/app.png" className="h-[48px] w-[48px]" />
